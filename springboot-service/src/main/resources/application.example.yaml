@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: underwriting
+  datasource:
+    url:
+    username:
+    password:
+    driver-class-name:
+  jpa:
+    hibernate:
+      ddl-auto: update
+    jpa:
+      show-sql=true:
+
+server:
+  port:
